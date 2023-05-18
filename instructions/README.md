@@ -11,7 +11,7 @@ For this assignment (and all others) you will be provided some files to work wit
 The files provided for this assignment are:
 * [cpractice.h](../cpractice.h) - This files contains all the functions you need to implement along with the structs you need to use. You will notice the function signatures are provided, along with the struct definitions. You will need to implement the functions in [cpractice.h](../cpractice.h) following the comments provided. The various print functions are intentionally implemented for you, so you can use them.
 * [main.c](../main.c) - This file contains a sample run of the program testing the various features. You can run this file to see the output of the program, but it is recommended you wait until the end to run it. 
-* [tests.c](../tests.c) - This file will be where you will store your tests. **FOR EVERY FUNCTION** you implement, you will immediately want to implement a few tests to ensure it is working properly. These tests should try to break the function / look at edge cases, in addition to just making sure works. In true test driven development, you should actually write the tests first, before writing a function. Take a look at this code, how are we running the functions (notice we are adding them to the array).
+* [tests.c](../tests.c) - This file will be where you will store your tests. **FOR EVERY FUNCTION** you implement except for free'ing memory, you will immediately want to implement a few tests to ensure it is working properly. These tests should try to break the function / look at edge cases, in addition to just making sure works. In true test driven development, you should actually write the tests first, before writing a function. Take a look at this code, how are we running the functions (notice we are adding them to the array).
    > A key concept here - write tests after *every* function. Don't wait until the end. You will thank yourself if you incrementally write tests as you go.
 
 
@@ -64,7 +64,7 @@ In your README.md, there are a number of questions to answer (moving forward you
 4. Exceeds  (MG)
    * At least 3 commits
    * All values stored on the heap are properly freed
-   * Complete test coverage in tests.c (including multiple tests for every function that returns a values, and edge cases checked)
+   * Complete test coverage in tests.c (including multiple tests for every function that returns a value, and edge cases checked)
    * Code documented properly (including explaining tests)
    * README.md questions answered correctly
 
