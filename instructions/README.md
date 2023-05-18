@@ -64,7 +64,7 @@ In your README.md, there are a number of questions to answer (moving forward you
 4. Exceeds  (MG)
    * At least 3 commits
    * All values stored on the heap are properly freed
-   * Complete test coverage in tests.c (including multiple tests for every function that returns a value, and edge cases checked)
+   * Complete test coverage in tests.c. Including multiple tests for every function except for the ones we provided (the ones that included print), and edge cases checked. You do not have to test free_polygon (but you should look it up in the debugger).
    * Code documented properly (including explaining tests)
    * README.md questions answered correctly
 
