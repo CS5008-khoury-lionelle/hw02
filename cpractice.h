@@ -115,33 +115,33 @@ void reverse_array(int *arr, int size){
  * 
 */
 int* double_array_size(int *arr, int size){
-    
+    return NULL;
 }
-
 
 /**
  * Copies elements of an array from start to end (inclusive) into a new array.
- * 
+ *
  * Returns the new array. However, if end is less than start, it loops around copying
  * elements from the beginning of the array.. (thus picture your array as a circle).
- * 
+ *
  * if start or end are invalid (less than 0, or greater than or equal to size), then
  * return NULL.
- * 
+ *
  * Example: assume an array is [1, 2, 3, 4, 5]
  * if make start = 1, and end = 3, then the new array should be [2, 3, 4]
  * if make start = 3, and end = 1, then the new array should be [4, 5, 1, 2]
- * 
+ *
  * Notice, new_size is a pointer, so you can set the size of the new array in your function. This
  * is commonly done in C, as a way to have multiple return values. (both the return, and the modified parameter)
- * 
+ *
  * In the two examples above, new_size would be set to 3, and then 4 respectively.
- * 
+ *
  * You will want to remember pointer arithmetic here. You can't say something like new_size = steps (where steps
- * is your new calculated size based on start to end), instead you have to say *new_size = steps)
- * 
- * Make sure to test this function, this is probably the hardest of the batch! 
-*/
+ * is your new calculated size based on start to end), instead you have to say *new_size = steps+1)
+ *
+ * Make sure to test this function, this is probably the hardest of the batch, and easy
+ * to get an OB1 error!
+ */
 int* copy_array_start_end_loop(int *arr, int size, int start, int end, int *new_size) {
     return NULL;
 }
