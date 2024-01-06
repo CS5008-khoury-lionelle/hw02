@@ -36,10 +36,15 @@ Did you use any external resources (you do not have to cite in class material)? 
 7. Looking at the struct Point and Polygon, we have a mix of values on the heap, and we make ample use of pointers. Take a moment to draw out how you think that looks after `create_triangle(2,3)` is called (see an example below). The important part of the drawing it to see that not everything is stored together in memory, but in different locations! Store the image file in your github repo and link it here. You can use any program to draw it such as [drawIO](https://app.diagrams.net/), or even draw it by hand and take a picture of it. 
 
 
+## Technical Interview Practice Questions
+For both these questions, are you are free to use what you did as the last section on the team activities/answered as a group, or you can use a different question.
+
+1. Select one technical interview question (this module or previous) from the [technical interview list](https://github.com/CS5008-khoury-lionelle/Resources/blob/main/TechInterviewQuestions.md) below and answer it in a few sentences. You can use any resource you like to answer the question.
+
+2. Select one coding question (this module or previous) from the [coding practice repository](https://github.com/CS5008-khoury-lionelle/Resources/blob/main/LeetCodePractice.md) and include a c file with that code with your submission. Make sure to add comments on what you learned, and if you compared your solution with others. 
 
 
-
-### Linking to images?
+## Linking to images?
 To link an image, you use the following code
 
 ```markdown
