@@ -50,11 +50,12 @@ void array_practice() {
     print_array(arr, 12);
 
     // double size
-    double_array_size(&arr, 12); //this replaces the original array with a new one
-    print_array(arr, 24);
+    int *arr4 = double_array_size(arr, 12); 
+    print_array(arr4, 24);
 
     // free array from memory
     free(arr); 
+    free(arr4);
     printf("\n");
 
 }
